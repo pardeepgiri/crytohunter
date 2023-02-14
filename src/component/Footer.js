@@ -1,4 +1,5 @@
 import React from 'react'
+import './style.css'
 
 const Footer = () => {
   return (
@@ -10,13 +11,13 @@ const Footer = () => {
             <a href='/'>Contact Us</a>
         </div>
         <div className='col'>
-            <h2 >Learn</h2>
+            <h2>Learn</h2>
             <a href='/'>Research</a>
             <a href='/'>Cryto Price </a>
             <a href='/'>Cryto Update</a>
         </div>
         <div className='col'>
-            <h2 >Company</h2>
+            <h2>Company</h2>
             <a href='/'>About</a>
             <a href='/'>Legal</a>
             <a href='/'>Privacy</a>
