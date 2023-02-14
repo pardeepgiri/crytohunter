@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
 
 const Home = () => {
-  const [url, setUrl] = useState("https://api.coingecko.com/api/v3/coins/markets?vs_currency=INR&order=market_cap_desc&per_page=10&page=1&sparkline=false");
+  const [url, setUrl] = useState("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false");
   const [item, setItem] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {
