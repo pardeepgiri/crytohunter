@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;800&family=Roboto:ital,wght@0,500;0,900;1,300;1,500&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* color: #030e12; */
+    /* background-color: #06101a; */
+    background-color: #030e12;
+}
+
+.mainheader {
+    /* background-color:#030e12; */
+    background-color:#000105;
+    border-bottom: 2px solid #eee;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Bona Nova', serif;
+    padding: 20px 20px;
+    font-weight: 900;
+}
+
+.leftheader,
+.rightheader {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.leftheader {
+    font-size: 30px;
+    text-align: left;
+}
+
+.rightheader {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+    padding-right: 20px;
+}
+
+.mainfirst {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Bona Nova', serif;
+    width: 90%;
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-bottom: 3px solid #eee;
+}
+
+.leftfirst,
+.rightfirst {
+    flex-basis: 50%;
+}
+
+.mainfirst p {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px auto;
+}
+
+.mainfirst h1 {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 10px auto;
+}
+
+.leftfirst {
+    padding: 1rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.rightfirst img {
+    width: 100%;
+    height: 100%;
+    padding: auto;
+}
+
+.smain {
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    margin: 1rem auto;
+    /* background-color: #f2fdff; */
+    background-color: #030e12;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #eee;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coinpage {
+    width: 185px;
+    border-radius: 1rem;
+    background-color: white;
+    border: 1px dotted #d7d7d7;
+    padding: 10px;
+    margin: 2rem auto;
+    color: black;
+    /* box-shadow: 0 5px 10px #eee; */
+    box-shadow: 0 5px 10px white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.coinpage img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.coinpage p {
+    font-size: 20px;
+}
+
+.red-text {
+    color: #f00606;
+}
+
+.green-text {
+    color: #11d811;
+}
+
+.link {
+    margin-bottom: 1rem;
+}
+
+.link button {
+    background-color: #f2fdff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 1rem;
+    outline: none;
+    border: 1px solid blanchedalmond;
+}
+.buttonn:hover{
+    font-weight: 900;
+    border-bottom: 4px solid black;
+}
+
+.description {
+    width: 100%;
+    /* height: 600px; */
+    margin: 1rem auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.description img{
+    width: 80%;
+    height: 100%;
+}
+/* ////////////////////////// */
+.coin-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .coin-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px;
+  }
+  
+  .coin {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+  
+    min-width: 300px;
+  }
+  
+  .coin h1 {
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  .coin img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .coin-symbol {
+    text-transform: uppercase;
+  }
+  
+  .coin-data {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .coin-price {
+    width: 110px;
+  }
+  
+  .coin-volume {
+    width: 155px;
+  }
+  
+  .coin-marketcap {
+    width: 230px;
+  }
+  
+  .coin-percent {
+    width: 100px;
+  }
+  
+/* ///////////////footer///////////////////// */
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem auto;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+.col{
+  margin: 1rem 2rem;
+}
+.flex a{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
