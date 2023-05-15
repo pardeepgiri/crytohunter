@@ -1,4 +1,3 @@
-
 import React from 'react'
 import './component/style.css';
 import {Route, Routes} from 'react-router-dom'
@@ -11,7 +10,7 @@ const App = () => {
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path="/List" element={<List/>}></Route>
+        <Route path="/list" element={<List/>}></Route>
 
       </Routes>
     </div>
